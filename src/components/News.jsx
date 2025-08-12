@@ -199,7 +199,7 @@ const News = () => {
     <section id="news" className="news">
       <div className="container">
         <h2>Latest News</h2>
-        <p className="section-subtitle">Stay updated with our latest research developments and announcements</p>
+        {/* <p className="section-subtitle">Stay updated with our latest research developments and announcements</p> */}
         
         {loading ? (
           <div className="loading">Loading latest news...</div>

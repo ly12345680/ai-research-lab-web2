@@ -79,7 +79,7 @@ const Products = () => {
     <section id="products" className="products">
       <div className="container">
         <h2>Our Products</h2>
-        <p className="section-subtitle">These are our products</p>
+        {/* <p className="section-subtitle">These are our products</p> */}
         
         {loading ? (
           <div className="loading">Loading products...</div>
